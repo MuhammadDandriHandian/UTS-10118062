@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/vector" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/lato"
+            android:text="Form Pengisian Data"
+            android:textColor="#424242"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/layout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/roboto"
+                android:text="Info"
+                android:textColor="#424242"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="42dp"
+                android:fontFamily="@font/roboto"
+                android:text="Form berikut bertujuan untuk memberikan informasi kepada pusat agar mudah diinfokan"
+                android:textColor="#757575"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="NIK"
+            android:layout_marginTop="20dp"
+            android:textSize="12dp"
+            android:textColor="#424242"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/text"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Nama"
+            android:layout_marginTop="20dp"
+            android:textSize="12dp"
+            android:textColor="#424242"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/text"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tanggal"
+            android:layout_marginTop="20dp"
+            android:textSize="12dp"
+            android:textColor="#424242"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/text"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Jenis Kelamin"
+            android:layout_marginTop="20dp"
+            android:textSize="12dp"
+            android:textColor="#424242"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Laki - laki"
+            android:textSize="14dp"
+            android:textColor="#424242"
+            android:fontFamily="@font/roboto"/>
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perempuan"
+            android:textSize="14dp"
+            android:textColor="#424242"
+            android:fontFamily="@font/roboto"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Hubungan Dengan Anda"
+            android:layout_marginTop="20dp"
+            android:textSize="12dp"
+            android:textColor="#424242"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Orangtua"
+            android:textSize="14dp"
+            android:textColor="#424242"
+            android:fontFamily="@font/roboto"/>
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suami/Istri"
+            android:textSize="14dp"
+            android:textColor="#424242"
+            android:fontFamily="@font/roboto"/>
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anak"
+            android:textSize="14dp"
+            android:textColor="#424242"
+            android:fontFamily="@font/roboto"/>
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kerabat Lainnya"
+            android:textSize="14dp"
+            android:textColor="#424242"
+            android:fontFamily="@font/roboto"/>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button"
+            android:text="Selanjutnya"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:backgroundTint="#16A75C"
+            app:iconTint="#FFFFFF" />
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
